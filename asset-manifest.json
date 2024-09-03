@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/meryda-flores/static/css/main.bea388ab.css",
-    "main.js": "/meryda-flores/static/js/main.35ff4fdf.js",
+    "main.css": "/meryda-flores/static/css/main.80099a74.css",
+    "main.js": "/meryda-flores/static/js/main.41fd3135.js",
     "static/js/453.3f53c679.chunk.js": "/meryda-flores/static/js/453.3f53c679.chunk.js",
     "static/media/fa-solid-900.ttf": "/meryda-flores/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/meryda-flores/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
     "static/media/flor4.jpg": "/meryda-flores/static/media/flor4.53f4ec5f2ae1ccb54828.jpg",
+    "static/media/flor7.jpg": "/meryda-flores/static/media/flor7.08fa90c07ccf5e93d672.jpg",
     "static/media/fa-solid-900.woff2": "/meryda-flores/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
     "static/media/fa-brands-400.woff2": "/meryda-flores/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
     "static/media/flor6.jpg": "/meryda-flores/static/media/flor6.9d9ee057427d786c9350.jpg",
     "static/media/flor3.jpg": "/meryda-flores/static/media/flor3.090fca9ccca187e07b7b.jpg",
+    "static/media/flor8.jpg": "/meryda-flores/static/media/flor8.a56a79f437a071a60438.jpg",
     "static/media/flor2.jpg": "/meryda-flores/static/media/flor2.51f0088164416bce2a35.jpg",
     "static/media/fa-regular-400.ttf": "/meryda-flores/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/flor1.jpg": "/meryda-flores/static/media/flor1.425c3ac66b548971a348.jpg",
@@ -18,12 +20,12 @@
     "static/media/fa-v4compatibility.ttf": "/meryda-flores/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/meryda-flores/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/meryda-flores/index.html",
-    "main.bea388ab.css.map": "/meryda-flores/static/css/main.bea388ab.css.map",
-    "main.35ff4fdf.js.map": "/meryda-flores/static/js/main.35ff4fdf.js.map",
+    "main.80099a74.css.map": "/meryda-flores/static/css/main.80099a74.css.map",
+    "main.41fd3135.js.map": "/meryda-flores/static/js/main.41fd3135.js.map",
     "453.3f53c679.chunk.js.map": "/meryda-flores/static/js/453.3f53c679.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bea388ab.css",
-    "static/js/main.35ff4fdf.js"
+    "static/css/main.80099a74.css",
+    "static/js/main.41fd3135.js"
   ]
 }
