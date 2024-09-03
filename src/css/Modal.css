@@ -1,0 +1,169 @@
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.658);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 350px;
+    width: 90%;
+    max-height: 500px;
+    position: relative;
+}
+
+.modal-img-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-img {
+    height: 350px;
+    width: 300px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.close-btn {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+.close-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.closetooltip {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -30px;
+    left: -50%;
+    margin-left: -100px;
+    margin-top: 50px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.close-btn:hover .closetooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.prev-btn, .next-btn {
+    background-color: rgba(0, 0, 0, 0.336);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.prev-btn {
+    left: -10px; /* Centrado en el lado izquierdo */
+}
+
+.next-btn {
+    right: -10px; /* Centrado en el lado derecho */
+}
+
+.prev-btn:hover, .next-btn:hover {
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
+/* Desenfoque del fondo */
+body.modal-open {
+    overflow: hidden; /* Evita el desplazamiento del fondo */
+}
+
+body.modal-open .content-blur {
+    filter: blur(5px);
+    transition: filter 0.3s ease;
+}
+
+/* Estilos para el botón de WhatsApp y tooltip */
+.whatsapp-container {
+    position: absolute; /* Necesario para el tooltip */
+    display: inline-block; /* Ajusta el tamaño del contenedor al botón */
+    margin-top: 90%;
+    
+}
+
+.whatsapp-btn {
+    background-color: #25D366; /* Color de fondo de WhatsApp */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E; /* Cambia el color de fondo al pasar el ratón */
+    color: white; /* Cambia el color del texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Agrega una sombra al botón */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.whatsapp-icon {
+    font-size: 18px;
+}
+
+.tooltip {
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.whatsapp-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
