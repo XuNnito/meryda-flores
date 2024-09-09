@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/meryda-flores/static/css/main.1eeee76f.css",
-    "main.js": "/meryda-flores/static/js/main.0b44be83.js",
+    "main.css": "/meryda-flores/static/css/main.77e29d6f.css",
+    "main.js": "/meryda-flores/static/js/main.db9016aa.js",
     "static/js/453.3f53c679.chunk.js": "/meryda-flores/static/js/453.3f53c679.chunk.js",
     "static/media/fa-solid-900.ttf": "/meryda-flores/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/meryda-flores/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
@@ -20,12 +20,12 @@
     "static/media/fa-v4compatibility.ttf": "/meryda-flores/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/meryda-flores/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/meryda-flores/index.html",
-    "main.1eeee76f.css.map": "/meryda-flores/static/css/main.1eeee76f.css.map",
-    "main.0b44be83.js.map": "/meryda-flores/static/js/main.0b44be83.js.map",
+    "main.77e29d6f.css.map": "/meryda-flores/static/css/main.77e29d6f.css.map",
+    "main.db9016aa.js.map": "/meryda-flores/static/js/main.db9016aa.js.map",
     "453.3f53c679.chunk.js.map": "/meryda-flores/static/js/453.3f53c679.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1eeee76f.css",
-    "static/js/main.0b44be83.js"
+    "static/css/main.77e29d6f.css",
+    "static/js/main.db9016aa.js"
   ]
 }
